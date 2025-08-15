@@ -17,6 +17,51 @@ dotnet restore
 
 #### 3. Configure the database
 
+Run this command to create the database:
+IF NOT EXISTS (
+    SELECT name 
+    FROM sys.databases 
+    WHERE name = N'DigitalEvidenceApp'
+)
+BEGIN
+    CREATE DATABASE DigitalEvidenceApp;
+END
+
+CREATE TABLE [dbo].[Matter] (
+    [MatterID] INT NOT NULL,
+    [MatterName] NVARCHAR(200) NOT NULL,
+    [ClientName] NVARCHAR(200) NULL,
+    CONSTRAINT [PK_Matter] PRIMARY KEY ([MatterID])
+);
+
+CREATE TABLE [dbo].[Evidence] (
+    [EvidenceID] INT NOT NULL,
+    [MatterID] INT NOT NULL,
+    [Description] NVARCHAR(500) NOT NULL,
+    [SerialNumber] NVARCHAR(200) NOT NULL,
+    CONSTRAINT [PK_Evidence] PRIMARY KEY ([EvidenceID]),
+    CONSTRAINT [FK_Evidence_Matter] FOREIGN KEY ([MatterID]) REFERENCES [dbo].[Matter]([MatterID])
+);
+
+INSERT INTO [dbo].[Matter] ([MatterID], [MatterName], [ClientName])
+VALUES
+(13022, 'Up vs Down', NULL),
+(13023, 'In vs Out', NULL),
+(13024, 'EF Core vs Dapper', NULL),
+(13025, 'Dark Mode vs Light Mode', NULL);
+
+INSERT INTO [dbo].[Evidence] ([EvidenceID], [MatterID], [Description], [SerialNumber])
+VALUES
+(1000, 13022, 'Dell XPS Laptop', 'DG56GSR'),
+(1001, 13022, 'San Disk Flash Drive', '43255323GS445344'),
+(1002, 13024, 'iPhone 15', 'GT453223FSTR52'),
+(1003, 13025, 'Lacie External 1TB Drive', 'AD34222432-321321'),
+(1004, 13022, 'ASUS Zenbook 14 Laptop', 'GBSFFDW8434-3323'),
+(1005, 13024, 'Samsung NVMe M2 Internal Drive', 'SE5324GYTF65556'),
+(1006, 13024, 'Samsung Fold Cell Phone', 'FSYGD645DFSWWSFFDTSAA'),
+(1007, 13023, 'Kingston 256GB Flash Drive', 'KD43243KT67655');
+
+
 Edit appsettings.json:
 
 {
