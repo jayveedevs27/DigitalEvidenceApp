@@ -84,3 +84,33 @@
 2025-08-16 00:11:23.559 +08:00 [INF] Filter changed: Showing evidence for MatterID 13024
 2025-08-16 00:11:24.552 +08:00 [INF] Filter changed: Showing evidence for MatterID 13022
 2025-08-16 00:11:25.544 +08:00 [INF] Filter changed: Showing evidence for MatterID 13024
+2025-08-16 00:38:35.455 +08:00 [INF] Starting up the application
+2025-08-16 00:38:37.862 +08:00 [INF] Initializing Evidence page...
+2025-08-16 00:38:37.865 +08:00 [INF] Fetching matters...
+2025-08-16 00:38:37.876 +08:00 [INF] Fetching all matter records from the database.
+2025-08-16 00:38:38.996 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-16 00:38:39.000 +08:00 [INF] Fetched 4 matters
+2025-08-16 00:38:39.001 +08:00 [INF] Fetching evidence...
+2025-08-16 00:38:39.003 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-16 00:38:39.080 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-16 00:38:39.082 +08:00 [INF] Fetched 8 evidence records
+2025-08-16 00:38:39.171 +08:00 [INF] Initializing Evidence page...
+2025-08-16 00:38:39.173 +08:00 [INF] Fetching matters...
+2025-08-16 00:38:39.174 +08:00 [INF] Fetching all matter records from the database.
+2025-08-16 00:38:39.222 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-16 00:38:39.224 +08:00 [INF] Fetched 4 matters
+2025-08-16 00:38:39.226 +08:00 [INF] Fetching evidence...
+2025-08-16 00:38:39.228 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-16 00:38:39.231 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-16 00:38:39.232 +08:00 [INF] Fetched 8 evidence records
+2025-08-16 00:38:39.507 +08:00 [INF] Initializing Evidence page...
+2025-08-16 00:38:39.508 +08:00 [INF] Fetching matters...
+2025-08-16 00:38:39.510 +08:00 [INF] Fetching all matter records from the database.
+2025-08-16 00:38:39.525 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-16 00:38:39.527 +08:00 [INF] Fetched 4 matters
+2025-08-16 00:38:39.529 +08:00 [INF] Fetching evidence...
+2025-08-16 00:38:39.530 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-16 00:38:39.533 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-16 00:38:39.534 +08:00 [INF] Fetched 8 evidence records
+2025-08-16 00:38:41.610 +08:00 [INF] Filter changed: Showing evidence for MatterID 13024
+2025-08-16 00:38:42.483 +08:00 [INF] Filter changed: Showing evidence for MatterID 13022
