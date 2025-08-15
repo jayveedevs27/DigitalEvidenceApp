@@ -9,15 +9,19 @@ cd digital-evidence
 #### 2. Install dependencies
 
 Ensure you have:
+
 .NET 8 SDK
+
 SQL Server or compatible database instance
 
 Restore NuGet packages:
+
 dotnet restore
 
 #### 3. Configure the database
 
 Run this command to create the database:
+
 IF NOT EXISTS (
     SELECT name 
     FROM sys.databases 
@@ -78,9 +82,11 @@ Edit appsettings.json:
 }
 
 #### 4. Run the application
+
 dotnet run
 
 The app will be available at:
+
 https://localhost:60780/
 
 # Architecture Overview
