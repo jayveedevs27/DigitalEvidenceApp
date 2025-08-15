@@ -1,0 +1,203 @@
+2025-08-15 23:34:35.665 +08:00 [INF] Starting up the application
+2025-08-15 23:34:36.176 +08:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: DigitalEvidenceApp.Data.IDataAccess Lifetime: Scoped ImplementationType: DigitalEvidenceApp.Data.DataAccess': Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'DigitalEvidenceApp.Data.DataAccess'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: DigitalEvidenceApp.Data.IDataAccess Lifetime: Scoped ImplementationType: DigitalEvidenceApp.Data.DataAccess': Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'DigitalEvidenceApp.Data.DataAccess'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'DigitalEvidenceApp.Data.DataAccess'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in E:\Repos\DigitalEvidenceApp\DigitalEvidenceApp\Program.cs:line 30
+2025-08-15 23:34:36.206 +08:00 [INF] Shutting down the application
+2025-08-15 23:35:04.972 +08:00 [INF] Starting up the application
+2025-08-15 23:35:05.295 +08:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: DigitalEvidenceApp.Data.IDataAccess Lifetime: Scoped ImplementationType: DigitalEvidenceApp.Data.DataAccess': Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'DigitalEvidenceApp.Data.DataAccess'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: DigitalEvidenceApp.Data.IDataAccess Lifetime: Scoped ImplementationType: DigitalEvidenceApp.Data.DataAccess': Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'DigitalEvidenceApp.Data.DataAccess'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'DigitalEvidenceApp.Data.DataAccess'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in E:\Repos\DigitalEvidenceApp\DigitalEvidenceApp\Program.cs:line 30
+2025-08-15 23:35:05.319 +08:00 [INF] Shutting down the application
+2025-08-15 23:38:45.995 +08:00 [INF] Starting up the application
+2025-08-15 23:38:49.636 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:38:51.326 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:38:51.332 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:38:51.414 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:38:51.533 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:38:51.587 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:38:51.589 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:38:51.592 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:38:51.612 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:38:51.642 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:38:51.656 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:38:51.667 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:38:51.827 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:38:51.827 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:38:51.827 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:38:51.854 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:38:51.854 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:38:51.854 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:38:51.855 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:38:51.856 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:38:51.857 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:38:51.859 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:38:51.861 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:38:51.863 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:40:36.467 +08:00 [INF] Starting up the application
+2025-08-15 23:40:38.850 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:40:38.855 +08:00 [INF] Fetching matters...
+2025-08-15 23:40:38.863 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:40:39.882 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:40:39.887 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:40:39.889 +08:00 [INF] Fetching evidence...
+2025-08-15 23:40:39.891 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:40:39.924 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:40:39.925 +08:00 [INF] Fetching matters...
+2025-08-15 23:40:39.926 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:40:39.982 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:40:39.983 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:40:39.984 +08:00 [INF] Fetching evidence...
+2025-08-15 23:40:39.985 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:40:40.013 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:40:40.013 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:40:40.014 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:40:40.016 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:40:40.106 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:40:40.107 +08:00 [INF] Fetching matters...
+2025-08-15 23:40:40.109 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:40:40.133 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:40:40.140 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:40:40.143 +08:00 [INF] Fetching evidence...
+2025-08-15 23:40:40.145 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:40:40.148 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:40:40.150 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:40:40.158 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:40:40.160 +08:00 [INF] Fetching matters...
+2025-08-15 23:40:40.161 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:40:40.169 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:40:40.170 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:40:40.172 +08:00 [INF] Fetching evidence...
+2025-08-15 23:40:40.174 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:40:40.178 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:40:40.181 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:40:40.365 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:40:40.365 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:40:40.365 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:40:40.366 +08:00 [INF] Fetching matters...
+2025-08-15 23:40:40.367 +08:00 [INF] Fetching matters...
+2025-08-15 23:40:40.368 +08:00 [INF] Fetching matters...
+2025-08-15 23:40:40.369 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:40:40.370 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:40:40.371 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:40:40.398 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:40:40.398 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:40:40.398 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:40:40.400 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:40:40.401 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:40:40.402 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:40:40.403 +08:00 [INF] Fetching evidence...
+2025-08-15 23:40:40.404 +08:00 [INF] Fetching evidence...
+2025-08-15 23:40:40.405 +08:00 [INF] Fetching evidence...
+2025-08-15 23:40:40.406 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:40:40.407 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:40:40.408 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:40:40.411 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:40:40.412 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:40:40.413 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:40:40.421 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:40:40.422 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:40:40.415 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:42:25.845 +08:00 [INF] Starting up the application
+2025-08-15 23:42:27.767 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:42:27.771 +08:00 [INF] Fetching matters...
+2025-08-15 23:42:27.778 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:42:28.804 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:42:28.809 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:42:28.810 +08:00 [INF] Fetching evidence...
+2025-08-15 23:42:28.812 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:42:28.886 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:42:28.888 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:42:28.977 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:42:28.978 +08:00 [INF] Fetching matters...
+2025-08-15 23:42:28.980 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:42:29.027 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:42:29.029 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:42:29.030 +08:00 [INF] Fetching evidence...
+2025-08-15 23:42:29.031 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:42:29.033 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:42:29.035 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:42:29.231 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:42:29.231 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:42:29.233 +08:00 [INF] Fetching matters...
+2025-08-15 23:42:29.234 +08:00 [INF] Fetching matters...
+2025-08-15 23:42:29.235 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:42:29.236 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:42:29.261 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:42:29.262 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:42:29.263 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:42:29.264 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:42:29.265 +08:00 [INF] Fetching evidence...
+2025-08-15 23:42:29.266 +08:00 [INF] Fetching evidence...
+2025-08-15 23:42:29.267 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:42:29.268 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:42:29.270 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:42:29.271 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:42:29.272 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:42:29.273 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:45:23.042 +08:00 [INF] Starting up the application
+2025-08-15 23:45:25.278 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:45:25.282 +08:00 [INF] Fetching matters...
+2025-08-15 23:45:25.290 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:45:26.232 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:45:26.237 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:45:26.238 +08:00 [INF] Fetching evidence...
+2025-08-15 23:45:26.240 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:45:26.315 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:45:26.317 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:45:26.411 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:45:26.412 +08:00 [INF] Fetching matters...
+2025-08-15 23:45:26.413 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:45:26.461 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:45:26.462 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:45:26.464 +08:00 [INF] Fetching evidence...
+2025-08-15 23:45:26.465 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:45:26.468 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:45:26.469 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:45:26.757 +08:00 [INF] Initializing Evidence page...
+2025-08-15 23:45:26.758 +08:00 [INF] Fetching matters...
+2025-08-15 23:45:26.759 +08:00 [INF] Fetching all matter records from the database.
+2025-08-15 23:45:26.776 +08:00 [INF] Successfully retrieved 4 matter records.
+2025-08-15 23:45:26.778 +08:00 [INF] Fetched 4 matters
+2025-08-15 23:45:26.779 +08:00 [INF] Fetching evidence...
+2025-08-15 23:45:26.779 +08:00 [INF] Fetching all evidence records from the database.
+2025-08-15 23:45:26.782 +08:00 [INF] Successfully retrieved 8 evidence records.
+2025-08-15 23:45:26.784 +08:00 [INF] Fetched 8 evidence records
+2025-08-15 23:45:28.621 +08:00 [INF] Filter changed: Showing evidence for MatterID 13025
+2025-08-15 23:45:29.705 +08:00 [INF] Filter changed: Showing evidence for MatterID 13024
+2025-08-15 23:45:31.101 +08:00 [INF] Filter changed: Showing evidence for MatterID 13023
+2025-08-15 23:45:32.265 +08:00 [INF] Filter changed: Showing evidence for MatterID 13022
+2025-08-15 23:45:33.997 +08:00 [INF] Filter changed: Showing all evidence records
+2025-08-15 23:45:42.407 +08:00 [INF] Filter changed: Showing evidence for MatterID 13025
+2025-08-15 23:45:43.648 +08:00 [INF] Filter changed: Showing evidence for MatterID 13024
+2025-08-15 23:45:45.251 +08:00 [INF] Filter changed: Showing evidence for MatterID 13023
+2025-08-15 23:45:47.651 +08:00 [INF] Filter changed: Showing evidence for MatterID 13022

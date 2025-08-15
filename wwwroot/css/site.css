@@ -1,0 +1,4 @@
+/* minimal custom styles */
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+header a { text-decoration: none; }
+header a:hover { text-decoration: underline; }
