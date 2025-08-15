@@ -1,5 +1,7 @@
 # DigitalEvidenceApp (Blazor Server, .NET 8)
 
+<img width="1917" height="916" alt="image" src="https://github.com/user-attachments/assets/e4b10cd3-827b-4619-923e-f0092124223c" />
+
 ### Setup Instructions
 
 #### 1. Clone the repository
