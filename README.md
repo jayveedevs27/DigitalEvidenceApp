@@ -3,8 +3,9 @@
 ### Setup Instructions
 
 #### 1. Clone the repository
-git clone https://github.com/jayveedevs27/digital-evidence.git
-cd digital-evidence
+git clone https://github.com/jayveedevs27/DigitalEvidenceApp.git
+
+cd DigitalEvidenceApp
 
 #### 2. Install dependencies
 
