@@ -1,12 +1,12 @@
 # DigitalEvidenceApp (Blazor Server, .NET 8)
 
-# Setup Instructions
+### Setup Instructions
 
-# 1. Clone the repository
-git clone https://github.com/your-repo/DigitalEvidenceApp.git
-cd DigitalEvidenceApp
+#### 1. Clone the repository
+git clone https://github.com/jayveedevs27/digital-evidence.git
+cd digital-evidence
 
-# 2. Install dependencies
+#### 2. Install dependencies
 
 Ensure you have:
 .NET 8 SDK
@@ -15,7 +15,7 @@ SQL Server or compatible database instance
 Restore NuGet packages:
 dotnet restore
 
-# 3. Configure the database
+#### 3. Configure the database
 
 Edit appsettings.json:
 
@@ -32,31 +32,31 @@ Edit appsettings.json:
   }
 }
 
-# 4. Run the application
+#### 4. Run the application
 dotnet run
 
 The app will be available at:
 https://localhost:60780/
 
-##### Architecture Overview
+# Architecture Overview
 
-## Blazor Server UI Layer — Razor Components handle rendering and event callbacks.
+#### Blazor Server UI Layer — Razor Components handle rendering and event callbacks.
 
-## DataAccess Layer — Encapsulates database operations using EF Core.
+#### DataAccess Layer — Encapsulates database operations using EF Core.
 
-## Dependency Injection — Interfaces are injected into components/services.
+#### Dependency Injection — Interfaces are injected into components/services.
 
-## Serilog Logging — Centralized logging configuration in Program.cs for console & file output.
+#### Serilog Logging — Centralized logging configuration in Program.cs for console & file output.
 
-##### Why this architecture?
+# Why this architecture?
 
-## Separation of Concerns — UI, business logic, and persistence layers are decoupled.
+#### Separation of Concerns — UI, business logic, and persistence layers are decoupled.
 
-## Maintainability — Interfaces make the code testable and extensible.
+#### Maintainability — Interfaces make the code testable and extensible.
 
-## Real-time UI updates — Blazor Server with SignalR avoids page reloads.
+#### Real-time UI updates — Blazor Server with SignalR avoids page reloads.
 
-📝 Logging Usage
+# Logging Usage
 
 We use Serilog for:
 
@@ -84,9 +84,12 @@ public class DataAccess : IDataAccess
     }
 }
 
-Tech Stack
+# Tech Stack
 
 .NET 8 Blazor Server
+
 Entity Framework Core
+
 SQL Server
+
 Serilog for structured logging

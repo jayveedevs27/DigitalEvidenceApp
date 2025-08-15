@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DigitalEvidenceApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b76cbdb2043a70bb963ab7116f1f49914f4b343e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DigitalEvidenceApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DigitalEvidenceApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
